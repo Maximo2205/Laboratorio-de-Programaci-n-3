@@ -1,0 +1,11 @@
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\bin\Debug\Gestion De Inventario 2.exe.config
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\bin\Debug\Gestion De Inventario 2.exe
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\bin\Debug\Gestion De Inventario 2.pdb
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion De Inventario 2.csproj.AssemblyReference.cache
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion_De_Inventario_2.Form1.resources
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion_De_Inventario_2.Properties.Resources.resources
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion De Inventario 2.csproj.GenerateResource.cache
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion De Inventario 2.csproj.CoreCompileInputs.cache
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion De Inventario 2.exe
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion De Inventario 2.pdb
+C:\Users\Maxi\Desktop\Gestion De Inventario 2\Gestion De Inventario 2\obj\Debug\Gestion_De_Inventario_2.Modificar_Producto.resources
