@@ -48,12 +48,13 @@
             this.txtBusqueda = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblTitulo2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvBD)).BeginInit();
             this.SuspendLayout();
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(44, 215);
+            this.btnBuscar.Location = new System.Drawing.Point(40, 293);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 3;
@@ -64,14 +65,14 @@
             // txtNombre
             // 
             this.txtNombre.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtNombre.Location = new System.Drawing.Point(128, 18);
+            this.txtNombre.Location = new System.Drawing.Point(124, 96);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(176, 20);
             this.txtNombre.TabIndex = 4;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(519, 144);
+            this.btnEliminar.Location = new System.Drawing.Point(515, 222);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 5;
@@ -81,7 +82,7 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(418, 144);
+            this.btnModificar.Location = new System.Drawing.Point(434, 222);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 6;
@@ -91,7 +92,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(326, 144);
+            this.btnAgregar.Location = new System.Drawing.Point(353, 222);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 7;
@@ -103,7 +104,7 @@
             // 
             this.dgvBD.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dgvBD.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBD.Location = new System.Drawing.Point(44, 244);
+            this.dgvBD.Location = new System.Drawing.Point(40, 322);
             this.dgvBD.Name = "dgvBD";
             this.dgvBD.Size = new System.Drawing.Size(586, 265);
             this.dgvBD.TabIndex = 8;
@@ -111,7 +112,7 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(53, 21);
+            this.lblNombre.Location = new System.Drawing.Point(49, 99);
             this.lblNombre.Name = "lblNombre";
             this.lblNombre.Size = new System.Drawing.Size(55, 13);
             this.lblNombre.TabIndex = 9;
@@ -120,7 +121,7 @@
             // lblCategorias
             // 
             this.lblCategorias.AutoSize = true;
-            this.lblCategorias.Location = new System.Drawing.Point(53, 61);
+            this.lblCategorias.Location = new System.Drawing.Point(49, 139);
             this.lblCategorias.Name = "lblCategorias";
             this.lblCategorias.Size = new System.Drawing.Size(59, 13);
             this.lblCategorias.TabIndex = 10;
@@ -130,7 +131,7 @@
             // 
             this.cmbCategoria.BackColor = System.Drawing.SystemColors.InactiveCaption;
             this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(128, 58);
+            this.cmbCategoria.Location = new System.Drawing.Point(124, 136);
             this.cmbCategoria.Name = "cmbCategoria";
             this.cmbCategoria.Size = new System.Drawing.Size(176, 21);
             this.cmbCategoria.TabIndex = 11;
@@ -138,7 +139,7 @@
             // lblDescripcion
             // 
             this.lblDescripcion.AutoSize = true;
-            this.lblDescripcion.Location = new System.Drawing.Point(338, 21);
+            this.lblDescripcion.Location = new System.Drawing.Point(334, 99);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(63, 13);
             this.lblDescripcion.TabIndex = 12;
@@ -147,7 +148,7 @@
             // txtDescripción
             // 
             this.txtDescripción.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtDescripción.Location = new System.Drawing.Point(418, 18);
+            this.txtDescripción.Location = new System.Drawing.Point(414, 96);
             this.txtDescripción.Name = "txtDescripción";
             this.txtDescripción.Size = new System.Drawing.Size(176, 20);
             this.txtDescripción.TabIndex = 13;
@@ -155,7 +156,7 @@
             // lblStock
             // 
             this.lblStock.AutoSize = true;
-            this.lblStock.Location = new System.Drawing.Point(366, 61);
+            this.lblStock.Location = new System.Drawing.Point(362, 139);
             this.lblStock.Name = "lblStock";
             this.lblStock.Size = new System.Drawing.Size(35, 13);
             this.lblStock.TabIndex = 14;
@@ -164,7 +165,7 @@
             // txtStock
             // 
             this.txtStock.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtStock.Location = new System.Drawing.Point(418, 58);
+            this.txtStock.Location = new System.Drawing.Point(414, 136);
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(176, 20);
             this.txtStock.TabIndex = 15;
@@ -172,7 +173,7 @@
             // txtCodigo
             // 
             this.txtCodigo.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtCodigo.Location = new System.Drawing.Point(128, 100);
+            this.txtCodigo.Location = new System.Drawing.Point(124, 178);
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(176, 20);
             this.txtCodigo.TabIndex = 16;
@@ -180,7 +181,7 @@
             // lblCodigo
             // 
             this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(68, 103);
+            this.lblCodigo.Location = new System.Drawing.Point(64, 181);
             this.lblCodigo.Name = "lblCodigo";
             this.lblCodigo.Size = new System.Drawing.Size(40, 13);
             this.lblCodigo.TabIndex = 17;
@@ -189,7 +190,7 @@
             // lblPrecio
             // 
             this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(366, 103);
+            this.lblPrecio.Location = new System.Drawing.Point(362, 181);
             this.lblPrecio.Name = "lblPrecio";
             this.lblPrecio.Size = new System.Drawing.Size(37, 13);
             this.lblPrecio.TabIndex = 18;
@@ -198,7 +199,7 @@
             // txtPrecio
             // 
             this.txtPrecio.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtPrecio.Location = new System.Drawing.Point(418, 100);
+            this.txtPrecio.Location = new System.Drawing.Point(414, 178);
             this.txtPrecio.Name = "txtPrecio";
             this.txtPrecio.Size = new System.Drawing.Size(176, 20);
             this.txtPrecio.TabIndex = 19;
@@ -206,14 +207,14 @@
             // txtBusqueda
             // 
             this.txtBusqueda.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.txtBusqueda.Location = new System.Drawing.Point(44, 188);
+            this.txtBusqueda.Location = new System.Drawing.Point(40, 266);
             this.txtBusqueda.Name = "txtBusqueda";
             this.txtBusqueda.Size = new System.Drawing.Size(176, 20);
             this.txtBusqueda.TabIndex = 20;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(487, 188);
+            this.button1.Location = new System.Drawing.Point(483, 266);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 23);
             this.button1.TabIndex = 27;
@@ -224,18 +225,29 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Location = new System.Drawing.Point(44, 169);
+            this.lblTitulo.Location = new System.Drawing.Point(40, 247);
             this.lblTitulo.Name = "lblTitulo";
             this.lblTitulo.Size = new System.Drawing.Size(196, 13);
             this.lblTitulo.TabIndex = 28;
             this.lblTitulo.Text = "Buscar por Código, Nombre o Categoría";
+            // 
+            // lblTitulo2
+            // 
+            this.lblTitulo2.AutoSize = true;
+            this.lblTitulo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo2.Location = new System.Drawing.Point(91, 24);
+            this.lblTitulo2.Name = "lblTitulo2";
+            this.lblTitulo2.Size = new System.Drawing.Size(469, 39);
+            this.lblTitulo2.TabIndex = 29;
+            this.lblTitulo2.Text = "GESTION DE INVENTARIO";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(672, 542);
+            this.ClientSize = new System.Drawing.Size(672, 628);
+            this.Controls.Add(this.lblTitulo2);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtBusqueda);
@@ -286,6 +298,7 @@
         private System.Windows.Forms.TextBox txtBusqueda;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Label lblTitulo2;
     }
 }
 
